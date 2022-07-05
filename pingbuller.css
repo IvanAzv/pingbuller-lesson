@@ -153,7 +153,7 @@ body{
 .header .nav{
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 .header .nav .nav_bar{
@@ -276,14 +276,14 @@ body{
 /* Начало стилизации текста под слайдером */
 
 .header_content_block{
-    background: linear-gradient(rgba(177, 48, 170, 1), rgba(82, 17, 78, 1));
+    background: linear-gradient(rgb(128, 6, 121), rgb(49, 4, 46));
 }
 
 .header_content_container{
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    padding-top: 50px;
+    padding: 50px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -308,6 +308,7 @@ body{
     color: whitesmoke;
     font-size: xx-large;
     text-transform: uppercase;
+    padding-left: 9px;
 }
 
 .header_content_block .header_content_container .content_text .test_1{
