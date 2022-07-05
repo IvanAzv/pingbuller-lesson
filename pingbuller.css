@@ -209,10 +209,16 @@ table {
     margin: 0 !important;
     border: none !important;
     box-shadow: none !important;
+ 
 }
 
+
 .slider_content .container .slider_first_page{
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
     
 }
 
@@ -221,7 +227,28 @@ table {
     color: white;
     font-size: 40px;
     font-weight: bolder;
-    padding-top: 40px;
     letter-spacing: -2px;
-    
+    margin: auto;
+}
+.slider_content .container .slider_first_page h2{
+    color:rgba(245, 153, 248) ;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.slider_content .container .slider_first_page p{
+    color: white;
+}
+
+
+
+.slider_content .container .slider_first_page .text_right{
+    width: 40%;
+    /* margin: auto; */
+}
+
+.slider_content .container .slider_first_page .video_left{
+    width: 40%;
+    /* margin: auto; */
 }
