@@ -129,6 +129,18 @@ table {
     border-spacing: 0;
 }
 
+@font-face {
+    font-family: "LeagueGothic";
+    src: url("./font/LeagueGothic/LeagueGothicRegular.woff") format("woff"),
+         url("./font/LeagueGothic/LeagueGothicRegular.ttf") format("ttf");
+      
+        
+}
+
+body{
+    font-family: "LeagueGothic";
+}
+
 .header{
     background-image:url(./img/bcg.jpg);
     background-repeat: no-repeat;
@@ -154,7 +166,7 @@ table {
     text-transform: uppercase;
     color: white;
     font-size: xx-large;
-    letter-spacing: -2px;
+    
 
 }
 
@@ -174,6 +186,7 @@ table {
     list-style-type: none;
     text-shadow: 3px 3px 3px #333333;
     padding: 3px;
+    font-size: x-large;
     
 }
 
@@ -194,6 +207,7 @@ table {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 25px;
+    
 }
 
 
@@ -205,7 +219,7 @@ table {
 
 .bx-wrapper{
     background: transparent !important;
-    padding: 0 !important;
+    padding: 50px 0 !important;
     margin: 0 !important;
     border: none !important;
     box-shadow: none !important;
@@ -220,6 +234,7 @@ table {
     align-items: center;
     
     
+    
 }
 
 .slider_content .container .slider_first_page h1{
@@ -227,7 +242,7 @@ table {
     color: white;
     font-size: 40px;
     font-weight: bolder;
-    letter-spacing: -2px;
+    
     margin: auto;
 }
 .slider_content .container .slider_first_page h2{
@@ -251,4 +266,7 @@ table {
 .slider_content .container .slider_first_page .video_left{
     width: 40%;
     /* margin: auto; */
+}
+.slider_content .container .slider_first_page .video_left video{
+    width: 100%;
 }
