@@ -142,13 +142,18 @@ body{
 }
 
 .header{
-    background-image:url(./img/bcg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     width: 100%;
     height: 100vh;
     
 }
+.header_background{
+    background-image: url(./img/bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
 .header .nav{
     width: 80%;
@@ -187,6 +192,7 @@ body{
     text-shadow: 3px 3px 3px #333333;
     padding: 3px;
     font-size: x-large;
+    border-bottom: solid 2px transparent;
     
 }
 
@@ -194,7 +200,7 @@ body{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    
+       
 }
 
 .nav .nav_bar .nav_bar_menu ul li:hover{
@@ -271,7 +277,7 @@ body{
     width: 100%;
 }
 
-/* Конец стилизации слайдерп */
+/* Конец стилизации слайдера */
 
 /* Начало стилизации текста под слайдером */
 
@@ -283,7 +289,7 @@ body{
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    padding: 50px 0;
+    padding:  50px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -332,4 +338,69 @@ body{
     margin-top: 40px;
     align-self: flex-end;
         
+}
+/* конец стилизации текста под слайдером */
+
+/* начало блока со вторым слайдером (дядя_слайдер) */
+.second_slider_container{
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    border-bottom: solid 1px lightgray;
+}
+
+.second_slider_container_content{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    
+}
+.second_slider_container_content_right{
+    width: 35%;
+    margin: auto;
+    
+
+}
+
+
+.second_slider_container_content_right h3{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: x-large;
+
+}
+
+
+
+.second_slider_container_content_right_list table td{
+    text-align: start;
+    vertical-align: middle;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.second_slider_container_content_right_list table td span{
+    color: grey;
+}
+
+
+.second_slider_container_content_left{
+    width: 35%;
+    margin: auto;
+}
+
+/* конец блока со вторым слайдером (дядя_слайдер) */
+
+/* начало блока с логотипами в ряд */
+
+.logo_list_container{
+    padding: 50px 0;
+    background-color: rgb(251, 251, 251);
+}
+.logos_list{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
 }
