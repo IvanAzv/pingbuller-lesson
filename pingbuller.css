@@ -410,6 +410,7 @@ body{
 
 .slider_1_page_1{
     position: relative;
+    
 }
 
 .second_slider_container_content_left .slider_1_page_1::before{
@@ -421,6 +422,7 @@ body{
     top: 0;
     left: -30px;
     z-index: 3;
+   
 }
 
 
