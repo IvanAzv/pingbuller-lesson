@@ -213,7 +213,6 @@ body{
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 25px;
-    
 }
 
 
@@ -277,7 +276,15 @@ body{
     width: 100%;
 }
 
+.bx-pager{
+    bottom: -30px!important;
+}
+
 /* Конец стилизации слайдера */
+
+.header_bottom{
+    height: 50px;
+}
 
 /* Начало стилизации текста под слайдером */
 
@@ -288,7 +295,7 @@ body{
 .header_content_container{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding:  50px 0;
     display: flex;
     justify-content: space-around;
