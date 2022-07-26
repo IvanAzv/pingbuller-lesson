@@ -389,6 +389,42 @@ body{
     margin: auto;
 }
 
+.second_slider_container_content_left .slider_1 h3{
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.second_slider_container_content_left .slider_1 h3 span{
+    color:rgba(245, 153, 248) ;
+}
+.second_slider_container_content_left .bx-viewport{
+    width: 90% !important;
+    background: white !important;
+    /* padding: 20px; */
+    
+    
+
+}
+
+
+
+.slider_1_page_1{
+    position: relative;
+}
+
+.second_slider_container_content_left .slider_1_page_1::before{
+    content: '';
+    background: url(./img/user.jpg);
+    width: 49px;
+    height: 51px;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    z-index: 3;
+}
+
+
+
 /* конец блока со вторым слайдером (дядя_слайдер) */
 
 /* начало блока карусели с логотипами в ряд */
