@@ -391,7 +391,7 @@ body{
 
 /* конец блока со вторым слайдером (дядя_слайдер) */
 
-/* начало блока с логотипами в ряд */
+/* начало блока карусели с логотипами в ряд */
 
 .logo_list_container{
     padding: 50px 0;
@@ -406,3 +406,106 @@ body{
 .slider_2 .test3{
     display: flex;
 }
+
+/* конец блока карусели с логотипами в ряд */
+
+/* начало стилизации футера */
+.footer_container{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+/* начало стилизации футера с текстовым контентом */
+
+.footer_container_text_content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.footer_container_text_content_block_1{
+    width: 22%;
+    
+
+}
+
+.footer_container_text_content_block_1 h2{
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+
+.footer_container_text_content_block_1 h2 span{
+    color: lightgray;
+}
+
+.footer_container_text_content_block_1 p{
+    line-height: 20px;
+    font-weight: 100;
+    color: gray;
+}
+.footer_container_text_content_block_1 p span{
+    font-style: italic;
+    font-weight: 100;
+    color: gray ;
+}
+
+.footer_container_text_content_block_2{
+    width: 25%;
+    
+}
+
+.footer_container_text_content_block_2 h2{
+    text-transform: uppercase;
+    
+    font-size: 40px;
+}
+.footer_container_text_content_block_2 p {
+    line-height: 20px;
+    font-weight: 100;
+    color: gray;
+    
+}
+
+/* конец стилизации футера с текстовым контентом */
+
+/* начало стилизации футера с меню */
+
+.footer_container_menu{
+    width: 100%;
+    background: url(./img/bg-footer.jpg);
+    padding: 30px 0;
+}
+
+.footer_container_menu_block{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_container_menu_list ul li{
+    display:inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    padding-right: 70px;
+}
+
+.footer_container_menu_list ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_container_menu_creator p{
+    color: white;
+    font-weight: 100;
+}
+
+.footer_container_menu_creator p span{
+    font-weight: 800;
+}
+
+/* конец стилизации футера с меню */
