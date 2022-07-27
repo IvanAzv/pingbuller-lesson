@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $('.slider').bxSlider();
+  $('.slider').bxSlider({
+  });
 
   $('.slider_carousel').bxSlider({
     speed:400,
@@ -10,6 +11,7 @@ $(document).ready(function(){
   });
   
   $('.slider_2').bxSlider({
+    // responsive: true,
     speed:500,
     infiniteLoop:true,
     auto:true,
