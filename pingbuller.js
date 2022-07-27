@@ -17,8 +17,9 @@ $(document).ready(function(){
     controls: false,
     minSlides: 5,
     maxSlides: 5,
-    moveSlides: 4,
-  
-      });
+    moveSlides: 1,
+    slideWidth: 100,
+    slideMargin: 80
+  });
 });
     
