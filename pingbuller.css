@@ -470,7 +470,13 @@ body{
 .logo_list_container .bx-wrapper{
     width: 100% !important;
     margin: auto !important;
+    vertical-align: middle !important;
     
+}
+
+.logo_list_container  .slider_2 {
+    display: flex;
+    align-items: center;
 }
 
 
