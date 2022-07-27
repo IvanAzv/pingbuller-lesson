@@ -19,7 +19,7 @@ $(document).ready(function(){
     maxSlides: 5,
     moveSlides: 1,
     slideWidth: 100,
-    slideMargin: 80
+    slideMargin: 25
   });
 });
     

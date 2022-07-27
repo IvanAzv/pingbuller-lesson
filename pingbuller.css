@@ -301,7 +301,7 @@ body{
     width: 80%;
     margin: auto;
     /* margin-top: 50px; */
-    padding:  40px 0;
+    padding:  20px 0;
     display: flex;
     justify-content: space-around;
 }
@@ -630,6 +630,8 @@ body{
     visibility: hidden;
     top: 0;
     left: -100%;
+    text-transform: uppercase;
+    
 
     width: 300px;
     height: 100%;
@@ -639,17 +641,18 @@ body{
 
     list-style: none;
 
-    background-color: #ECEFF1;
+    background-color: rgba(245, 240, 240, 0.96);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 
     transition-duration: .25s;
+    z-index: 50;
 }
 
 .menu__item {
     display: block;
     padding: 12px 24px;
 
-    color: #333;
+    color: rgba(245, 153, 248);
 
     font-family: 'Roboto', sans-serif;
     font-size: 20px;

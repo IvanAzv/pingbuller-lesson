@@ -1,4 +1,4 @@
-@media (max-width: 820px) {
+@media (max-width: 850px) {
 
     .vh100_block {
     
@@ -13,12 +13,18 @@
     }
     .nav_bar{
         flex-direction: column;
+        vertical-align: middle;
         
     }
 
-    .nav_bar_menu ul{
-        flex-direction: column;
+    .nav_bar_menu{
+        display: none;
+            
     }
+
+    /* .nav_bar_menu ul{
+        flex-direction: column;
+    } */
 
     .slider_content .container {
         width: 90%;
@@ -98,6 +104,26 @@
     .footer_container_menu_creator{
         display: flex;
         align-items: flex-end;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        opacity: 1;
+        width: 30px;
+        
+    }
+
+    .menu__btn {
+        position: inherit;
+        margin: auto;
+           
+    }
+
+    .hamburger-menu{
+         width: 20%;
+         margin: auto;
+
     }
 
 }
