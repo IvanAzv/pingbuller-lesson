@@ -141,7 +141,7 @@ body{
     font-family: "LeagueGothic";
 }
 
-.header{
+.vh100_block{
     
     width: 100%;
     height: 100vh;
@@ -151,17 +151,18 @@ body{
     background-image: url(./img/bcg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  
 
 }
 
 
-.header .nav{
+.header_background .nav{
     width: 80%;
     margin: auto;
     padding-top: 75px;
 }
 
-.header .nav .nav_bar{
+.header_background .nav .nav_bar{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -203,7 +204,7 @@ body{
        
 }
 
-.nav .nav_bar .nav_bar_menu ul li:hover{
+.nav .nav_bar .nav_bar_menu ul li:active{
     border-bottom: solid 2px rgba(245, 153, 248, 0.678);
 }
 
@@ -276,6 +277,9 @@ body{
     width: 100%;
 }
 
+
+
+
 .bx-pager{
     bottom: -30px!important;
 }
@@ -288,60 +292,60 @@ body{
 
 /* Начало стилизации текста под слайдером */
 
-.header_content_block{
+.content_block{
     background: linear-gradient(rgb(128, 6, 121), rgb(49, 4, 46));
 }
 
-.header_content_container{
+.content_block .content_container{
     width: 80%;
     margin: auto;
     /* margin-top: 50px; */
-    padding:  50px 0;
+    padding:  40px 0;
     display: flex;
     justify-content: space-around;
 }
 
-.header_content_block .header_content_container .content_text{
+.content_block .content_container .content_text{
     width: 19%;
     display: flex;
     flex-direction: column;
 }
 
-.header_content_block .header_content_container .content_text .test{
+.content_block .content_container .content_text .content_text_icon{
     display: flex;
     align-items: center;
 }
 
-.header_content_block .header_content_container .content_text svg{
+.content_block .content_container .content_text_icon svg{
     fill: white;
 }
 
 
-.header_content_block .header_content_container .content_text h3{
+.content_block .content_container .content_text h3{
     color: whitesmoke;
     font-size: xx-large;
     text-transform: uppercase;
     padding-left: 9px;
 }
 
-.header_content_block .header_content_container .content_text .test_1{
+.content_block .content_container .content_text .content_text_about{
     width: 80%;
     align-self: flex-end;
     justify-self: center;
 }
 
-.header_content_block .header_content_container .content_text p{
+.content_block .content_container .content_text p{
     color: white;
     line-height: 20px;
 }
-.header_content_block .header_content_container .content_text .test_2 a{
+.content_block .content_container .content_text .content_text_read_more a{
     text-transform: uppercase;
     text-decoration: none;
     color: white;
     
 }
 
-.header_content_block .header_content_container .content_text .test_2{
+.content_block .content_container .content_text .content_text_read_more{
     margin-top: 40px;
     align-self: flex-end;
         
@@ -396,40 +400,42 @@ body{
     margin: auto;
 }
 
-.second_slider_container_content_left .slider_1 h3{
+.second_slider_container_content_left .slider_carousel .slider_carousel_page h3{
     text-transform: uppercase;
     font-size: larger;
 }
 
-.second_slider_container_content_left .slider_1 h3 span{
+.second_slider_container_content_left .slider_carousel .slider_carousel_page h3 span{
     color:rgba(245, 153, 248) ;
 }
 .second_slider_container_content_left .bx-viewport{
     width: 90% !important;
     background: white !important;
     /* padding: 20px; */
-    
-    
-
+      
 }
 
-
-
-.slider_1_page_1{
+.slider_carousel_page{
+    width: 100%;
     position: relative;
     
 }
 
-.second_slider_container_content_left .slider_1_page_1::before{
+.second_slider_container_content_left .slider_carousel_page::before{
     content: '';
     background: url(./img/user.jpg);
     width: 49px;
     height: 51px;
     position: absolute;
     top: 0;
-    left: -30px;
+    left: -40px;
     z-index: 3;
    
+}
+
+.slider_carousel_content{
+    padding: 45px;
+    
 }
 
 
@@ -447,22 +453,17 @@ body{
     margin: auto;  
 }
 
-
-.slider_2 .test3{
-    display: flex;
-}
-
 /* конец блока карусели с логотипами в ряд */
 
 /* начало стилизации футера */
-.footer_container{
+.container_text_second{
     width: 100%;
     background-color: rgb(238, 238, 238);
 }
 
 /* начало стилизации футера с текстовым контентом */
 
-.footer_container_text_content{
+.container_text_2_content{
     width: 70%;
     margin: auto;
     display: flex;
@@ -470,48 +471,35 @@ body{
     padding: 25px 0;
 }
 
-.footer_container_text_content_block_1{
+.container_text_2_content_block{
     width: 22%;
     
-
 }
 
-.footer_container_text_content_block_1 h2{
+.container_text_2_content .block_1  h2{
     text-transform: uppercase;
     font-size: 50px;
 
 }
 
-.footer_container_text_content_block_1 h2 span{
+.container_text_2_content .block_1 h2 span{
     color: lightgray;
 }
 
-.footer_container_text_content_block_1 p{
+.container_text_2_content_block p{
     line-height: 20px;
     font-weight: 100;
     color: gray;
 }
-.footer_container_text_content_block_1 p span{
+.container_text_2_content .block_1 p span{
     font-style: italic;
     font-weight: 100;
     color: gray ;
 }
 
-.footer_container_text_content_block_2{
-    width: 25%;
-    
-}
-
-.footer_container_text_content_block_2 h2{
+.container_text_2_content .block_2 h2{
     text-transform: uppercase;
-    
     font-size: 40px;
-}
-.footer_container_text_content_block_2 p {
-    line-height: 20px;
-    font-weight: 100;
-    color: gray;
-    
 }
 
 /* конец стилизации футера с текстовым контентом */

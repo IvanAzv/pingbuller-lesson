@@ -1,28 +1,24 @@
 $(document).ready(function(){
   $('.slider').bxSlider();
-});
-    
 
-$(document).ready(function(){
-  $('.slider_1').bxSlider({
+  $('.slider_carousel').bxSlider({
     speed:400,
     infiniteLoop:true,
     auto:true,
     pager:false,
     controls: false,
-   });
-});
-    
-
-$(document).ready(function(){
+  });
+  
   $('.slider_2').bxSlider({
-    speed:100,
+    speed:500,
     infiniteLoop:true,
     auto:true,
     pager:false,
     controls: false,
-    minSlides: 2,
-    maxSlides:3,
+    minSlides: 5,
+    maxSlides: 5,
+    moveSlides: 4,
   
       });
-    });
+});
+    
